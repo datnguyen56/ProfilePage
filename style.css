@@ -1,0 +1,261 @@
+.nav {
+    background-color:black;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    width: 600px;
+    height: 40px;
+    display: flex;
+    padding-left: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.nav-title h1 {
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+    padding-left: 30px;
+}
+
+.nav-title ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+ul li {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+.nav-links {
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+
+.btn {
+    background-color: darkcyan;
+    color: white;
+    box-shadow: 3px 2px black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* container box */
+
+.container {
+    width: 1000px;
+    height: 670px;
+    margin-left: 130px;
+    display: flex;
+}
+
+.main {
+    width: 600px;
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.top {
+    width: 600px;
+    height: 100px;
+    background-color: darkcyan;
+    align-items: center;
+}
+
+
+.relative {
+    position: relative;
+    top: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.bottom {
+    width: 595px;
+    height: 250px;  
+    background-color: whitesmoke;
+    padding-top: 30px;
+    border: 3px solid silver;
+}
+
+.bottom h1 {
+    margin-left: 60px;
+}
+
+.bottom img {
+    width: 15px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+h3 {
+    margin-left: 60px;
+}
+
+p {
+    color: rgb(48, 48, 207);
+    text-decoration: underline;
+}
+
+.under {
+    width: 600px;
+    height: 220px;
+    margin-top: 30px;
+}
+
+.edu {
+    background-color: rgb(44, 40, 40);
+    width: 600px;
+    height: 50px;
+}
+
+.edu div {
+    color: white;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 60px;
+}
+
+.intro {
+    border: 3px solid grey;
+    width: 595px;
+    height: 170px;
+}
+
+.intro h2 {
+    padding-left: 60px;
+}
+
+/* Connection Boxes */
+
+.navright {
+    width: 300px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.box1 {
+    background-color: lightgreen;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.topbox {
+    background-color: rgb(44, 40, 40);
+    height: 50px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+span { 
+    border: 3px solid grey;
+    color: black;
+    background-color:grey;
+    border-radius: 50%;
+    padding-left: 7px;
+    margin-right: 10px;
+}
+
+.bottombox {
+    background-color: white;
+    height: 170px;
+    padding-top: 5px;
+    border: 3px solid silver;
+}
+
+.bottombox img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.absolute1 {
+    position: absolute;
+    right: 480px;
+    top: 170px;
+    display: flex;
+}
+
+.absolute2 {
+    position: absolute;
+    right: -50px
+}
+
+.absolute3 {
+    position: absolute;
+    right: 480px;
+    top: 235px;
+    display: flex;
+}
+
+.absolute4 {
+    position: absolute;
+    right: -50px
+}
+
+.box2 {
+    height: 380px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.new1 {
+    background-color: rgb(44, 40, 40);
+    height: 30px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.new2 {
+    height: 250px;
+    border: 2px solid silver;
+    padding-bottom: 30px;
+}
+
+.new2 img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.new3 {
+    height: 40px;
+    border: 2px solid silver;
+}
+
+.new3 h3 {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-top: 5px;
+}
